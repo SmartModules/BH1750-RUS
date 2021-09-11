@@ -1,18 +1,12 @@
-# BH1750
+# BH1750 (GY-302)
 
-[![Build Status](https://github.com/claws/BH1750/workflows/checks/badge.svg?branch=master)](https://github.com/claws/BH1750/actions)<br>
+Arduino библиотека для цифрового датчика освещенности [BH1750 (GY-302)](https://smdx.ru/bh1750)
 
-This package contains an Arduino library for digital light sensor breakout boards containing the
-BH1750FVI IC.
 
-The BH1750 board uses I2C for communication which requires two pins to
-communicate with the device. Configuring the I2C bus must be done in user code
-(not library code). This approach has been adopted so it can be done once and
-will better support the various options for different platforms.
+GY-302 - высокоточный цифровой датчик интенсивности света на базе чипа BH1750, различает более 60 тысяч градаций света.
+Отличается от предыдущего поколения датчиков GY-30 компактностью и пониженным потреблением.
 
-A common module containing the BH1750 component is the GY-30 shown below.
-
-![GY-30 Module image](resources/gy30-module.jpg)
+![GY-30 Module image](https://smdx.ru/uploads/product/000/69/bh1750-1.jpg)
 
 
 ## Overview
